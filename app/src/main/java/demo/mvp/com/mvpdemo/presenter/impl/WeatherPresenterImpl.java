@@ -43,6 +43,6 @@ public class WeatherPresenterImpl implements WeatherPresenter,ResponListener<Lis
 
     @Override
     public void onFailure(String str, Exception e) {
-        
+        mainView.hideDialog();
     }
 }
